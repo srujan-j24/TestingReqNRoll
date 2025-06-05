@@ -29,13 +29,6 @@
 
   </ItemGroup>
 
-<ItemGroup>
-<PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="*" PrivateAssets="All" />
-</ItemGroup>
- 
-<PropertyGroup>
-<ReqnrollGenerateFeatureFiles>true</ReqnrollGenerateFeatureFiles>
-</PropertyGroup>
 
 
 

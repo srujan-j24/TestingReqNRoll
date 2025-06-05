@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9mQcD4tURDA=",
+  "dgSpecHash": "P3v56wil+o8=",
   "success": true,
   "projectFilePath": "C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\ReqnrollProject.csproj",
   "expectedPackageFiles": [
@@ -27,7 +27,7 @@
     "C:\\Users\\srujx\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\srujx\\.nuget\\packages\\reqnroll\\2.4.1\\reqnroll.2.4.1.nupkg.sha512",
     "C:\\Users\\srujx\\.nuget\\packages\\reqnroll.nunit\\2.2.1\\reqnroll.nunit.2.2.1.nupkg.sha512",
-    "C:\\Users\\srujx\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\reqnroll.tools.msbuild.generation.2.4.1.nupkg.sha512",
+    "C:\\Users\\srujx\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.2.1\\reqnroll.tools.msbuild.generation.2.2.1.nupkg.sha512",
     "C:\\Users\\srujx\\.nuget\\packages\\selenium.support\\4.33.0\\selenium.support.4.33.0.nupkg.sha512",
     "C:\\Users\\srujx\\.nuget\\packages\\selenium.webdriver\\4.33.0\\selenium.webdriver.4.33.0.nupkg.sha512",
     "C:\\Users\\srujx\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
@@ -70,8 +70,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll.Tools.MsBuild.Generation (= 2.2.1) but version Reqnroll.Tools.MsBuild.Generation 2.4.1 was resolved.",
-      "libraryId": "Reqnroll.Tools.MsBuild.Generation",
+      "message": "Detected package version outside of dependency constraint: Reqnroll.Tools.MsBuild.Generation 2.2.1 requires Reqnroll (= 2.2.1) but version Reqnroll 2.4.1 was resolved.",
+      "libraryId": "Reqnroll",
       "targetGraphs": [
         "net8.0"
       ]
