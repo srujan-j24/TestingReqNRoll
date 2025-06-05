@@ -553,12 +553,12 @@
           "build/Reqnroll.targets": {}
         }
       },
-      "Reqnroll.NUnit/2.2.1": {
+      "Reqnroll.NUnit/2.4.1": {
         "type": "package",
         "dependencies": {
           "NUnit": "3.13.1",
-          "Reqnroll": "[2.2.1]",
-          "Reqnroll.Tools.MsBuild.Generation": "[2.2.1]"
+          "Reqnroll": "[2.4.1]",
+          "Reqnroll.Tools.MsBuild.Generation": "[2.4.1]"
         },
         "compile": {
           "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {}
@@ -571,10 +571,10 @@
           "build/Reqnroll.NUnit.targets": {}
         }
       },
-      "Reqnroll.Tools.MsBuild.Generation/2.2.1": {
+      "Reqnroll.Tools.MsBuild.Generation/2.4.1": {
         "type": "package",
         "dependencies": {
-          "Reqnroll": "[2.2.1]"
+          "Reqnroll": "[2.4.1]"
         },
         "build": {
           "build/Reqnroll.Tools.MsBuild.Generation.props": {},
@@ -1774,10 +1774,10 @@
         "reqnroll.nuspec"
       ]
     },
-    "Reqnroll.NUnit/2.2.1": {
-      "sha512": "xNEj6ZNKyglOV0nk11082HJMVSSgTScpRGBEyC38o4CaRgg6SwHXf43i2wUfy423mFsHQ449+QRiw8UlHYTN2g==",
+    "Reqnroll.NUnit/2.4.1": {
+      "sha512": "IbP1uVirMVpopeRwjvtz2b0PO9oQtHcDnAQigTpZY9lxSRYBycQSYQaZ6fbkkg/mG/azkPPGV3YIjNILQ8jWrw==",
       "type": "package",
-      "path": "reqnroll.nunit/2.2.1",
+      "path": "reqnroll.nunit/2.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1789,14 +1789,14 @@
         "build/netstandard2.0/Reqnroll.NUnit.Generator.ReqnrollPlugin.dll",
         "images/reqnroll-icon.png",
         "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll",
-        "reqnroll.nunit.2.2.1.nupkg.sha512",
+        "reqnroll.nunit.2.4.1.nupkg.sha512",
         "reqnroll.nunit.nuspec"
       ]
     },
-    "Reqnroll.Tools.MsBuild.Generation/2.2.1": {
-      "sha512": "A8a5dcZXfk3UlRJur9XzkJsBNHr/hwrHEzCYdJe1VUV1/NsN4cPK+S+7DV0haR4sJ2PfDhqds3FOK4rVRNDXmQ==",
+    "Reqnroll.Tools.MsBuild.Generation/2.4.1": {
+      "sha512": "+Up0eUWnKRKPdRIttE52DYzwayUd4bGMyRytYeeCwtqwZA4tLhK2NspOZJ8axPcmATOM9QSTCUHUlyp9pgcfQg==",
       "type": "package",
-      "path": "reqnroll.tools.msbuild.generation/2.2.1",
+      "path": "reqnroll.tools.msbuild.generation/2.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1812,7 +1812,7 @@
         "licenses/Cucumber.CucumberExpressions-LICENSE-MIT.txt",
         "licenses/Gherkin-LICENSE-MIT.txt",
         "licenses/SpecFlow.Internal.Json-LICENSE-MIT.txt",
-        "reqnroll.tools.msbuild.generation.2.2.1.nupkg.sha512",
+        "reqnroll.tools.msbuild.generation.2.4.1.nupkg.sha512",
         "reqnroll.tools.msbuild.generation.nuspec",
         "tasks/net462/CucumberExpressions.dll",
         "tasks/net462/Gherkin.dll",
@@ -1829,7 +1829,6 @@
         "tasks/net462/Reqnroll.Tools.MsBuild.Generation.dll",
         "tasks/net462/Reqnroll.Utils.dll",
         "tasks/net462/Reqnroll.dll",
-        "tasks/net462/SpecFlow.Internal.Json.dll",
         "tasks/net462/System.AppContext.dll",
         "tasks/net462/System.Buffers.dll",
         "tasks/net462/System.CodeDom.dll",
@@ -1947,13 +1946,43 @@
         "tasks/net462/netstandard.dll",
         "tasks/netstandard2.0/CucumberExpressions.dll",
         "tasks/netstandard2.0/Gherkin.dll",
+        "tasks/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "tasks/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "tasks/netstandard2.0/Microsoft.VisualStudio.Composition.dll",
+        "tasks/netstandard2.0/Microsoft.VisualStudio.Threading.dll",
+        "tasks/netstandard2.0/Microsoft.VisualStudio.Validation.dll",
+        "tasks/netstandard2.0/Microsoft.Win32.Registry.dll",
         "tasks/netstandard2.0/Reqnroll.Generator.dll",
         "tasks/netstandard2.0/Reqnroll.Parser.dll",
         "tasks/netstandard2.0/Reqnroll.Tools.MsBuild.Generation.deps.json",
         "tasks/netstandard2.0/Reqnroll.Tools.MsBuild.Generation.dll",
         "tasks/netstandard2.0/Reqnroll.Utils.dll",
         "tasks/netstandard2.0/Reqnroll.dll",
-        "tasks/netstandard2.0/SpecFlow.Internal.Json.dll"
+        "tasks/netstandard2.0/System.Buffers.dll",
+        "tasks/netstandard2.0/System.CodeDom.dll",
+        "tasks/netstandard2.0/System.Collections.Immutable.dll",
+        "tasks/netstandard2.0/System.ComponentModel.Composition.dll",
+        "tasks/netstandard2.0/System.Composition.AttributedModel.dll",
+        "tasks/netstandard2.0/System.Composition.Convention.dll",
+        "tasks/netstandard2.0/System.Composition.Hosting.dll",
+        "tasks/netstandard2.0/System.Composition.Runtime.dll",
+        "tasks/netstandard2.0/System.Composition.TypedParts.dll",
+        "tasks/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "tasks/netstandard2.0/System.Memory.dll",
+        "tasks/netstandard2.0/System.Numerics.Vectors.dll",
+        "tasks/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "tasks/netstandard2.0/System.Reflection.Emit.dll",
+        "tasks/netstandard2.0/System.Reflection.Metadata.dll",
+        "tasks/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tasks/netstandard2.0/System.Security.AccessControl.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tasks/netstandard2.0/System.Security.Principal.Windows.dll",
+        "tasks/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "tasks/netstandard2.0/System.Text.Encodings.Web.dll",
+        "tasks/netstandard2.0/System.Text.Json.dll",
+        "tasks/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "tasks/netstandard2.0/System.Threading.Tasks.Extensions.dll"
       ]
     },
     "Selenium.Support/4.33.0": {
@@ -3342,7 +3371,8 @@
       "Microsoft.NET.Test.Sdk >= 17.10.0",
       "NUnit3TestAdapter >= 4.5.0",
       "Reqnroll >= 2.4.1",
-      "Reqnroll.NUnit >= 2.2.1",
+      "Reqnroll.NUnit >= 2.4.1",
+      "Reqnroll.Tools.MsBuild.Generation >= 2.4.1",
       "Selenium.Support >= 4.33.0",
       "Selenium.WebDriver >= 4.33.0",
       "WebDriverManager >= 2.17.5",
@@ -3421,7 +3451,11 @@
           },
           "Reqnroll.NUnit": {
             "target": "Package",
-            "version": "[2.2.1, )"
+            "version": "[2.4.1, )"
+          },
+          "Reqnroll.Tools.MsBuild.Generation": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "Selenium.Support": {
             "target": "Package",
@@ -3459,27 +3493,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll (= 2.2.1) but version Reqnroll 2.4.1 was resolved.",
-      "libraryId": "Reqnroll",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.Tools.MsBuild.Generation 2.2.1 requires Reqnroll (= 2.2.1) but version Reqnroll 2.4.1 was resolved.",
-      "libraryId": "Reqnroll",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

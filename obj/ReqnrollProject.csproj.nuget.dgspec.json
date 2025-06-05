@@ -72,7 +72,11 @@
             },
             "Reqnroll.NUnit": {
               "target": "Package",
-              "version": "[2.2.1, )"
+              "version": "[2.4.1, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "Selenium.Support": {
               "target": "Package",
