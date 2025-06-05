@@ -1,0 +1,143 @@
+{
+  "uuid": "c9230a46-832c-4b96-8cbf-990d26dd19b2",
+  "historyId": "97779552cd414899d6727ec30b08061e",
+  "testCaseId": "c30ba2c6d684e12bf7bc60ef5d4e0bab",
+  "fullName": "ReqnrollProject/Features/login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.login"
+    },
+    {
+      "name": "feature",
+      "value": "login"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orange hrm login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119515913,
+      "stop": 1749119515915
+    },
+    {
+      "name": "When User enters the username \"Ad\" and password \"min\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119515915,
+      "stop": 1749119515917
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119515917,
+      "stop": 1749119515931
+    },
+    {
+      "name": "Then User is navigated to Home page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119515931,
+      "stop": 1749119515933
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "a4fa62e1-cf78-4cfa-b744-afd3cf30875e-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749119515933,
+      "stop": 1749119515938
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Ad\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"min\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749119515912,
+  "stop": 1749119515946
+}

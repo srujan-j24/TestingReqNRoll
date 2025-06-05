@@ -12,8 +12,8 @@
           "Allure.Reqnroll": "2.12.1",
           "Microsoft.NET.Test.Sdk": "17.10.0",
           "NUnit3TestAdapter": "4.5.0",
+          "Reqnroll": "2.4.1",
           "Reqnroll.NUnit": "2.2.1",
-          "Reqnroll.Tools.MsBuild.Generation": "2.4.1",
           "Selenium.Support": "4.33.0",
           "Selenium.WebDriver": "4.33.0",
           "WebDriverManager": "2.17.5",
@@ -433,7 +433,7 @@
         "dependencies": {
           "NUnit": "3.14.0",
           "Reqnroll": "2.4.1",
-          "Reqnroll.Tools.MsBuild.Generation": "2.4.1"
+          "Reqnroll.Tools.MsBuild.Generation": "2.2.1"
         },
         "runtime": {
           "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {
@@ -442,7 +442,7 @@
           }
         }
       },
-      "Reqnroll.Tools.MsBuild.Generation/2.4.1": {
+      "Reqnroll.Tools.MsBuild.Generation/2.2.1": {
         "dependencies": {
           "Reqnroll": "2.4.1"
         }
@@ -797,12 +797,12 @@
       "path": "reqnroll.nunit/2.2.1",
       "hashPath": "reqnroll.nunit.2.2.1.nupkg.sha512"
     },
-    "Reqnroll.Tools.MsBuild.Generation/2.4.1": {
+    "Reqnroll.Tools.MsBuild.Generation/2.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+Up0eUWnKRKPdRIttE52DYzwayUd4bGMyRytYeeCwtqwZA4tLhK2NspOZJ8axPcmATOM9QSTCUHUlyp9pgcfQg==",
-      "path": "reqnroll.tools.msbuild.generation/2.4.1",
-      "hashPath": "reqnroll.tools.msbuild.generation.2.4.1.nupkg.sha512"
+      "sha512": "sha512-A8a5dcZXfk3UlRJur9XzkJsBNHr/hwrHEzCYdJe1VUV1/NsN4cPK+S+7DV0haR4sJ2PfDhqds3FOK4rVRNDXmQ==",
+      "path": "reqnroll.tools.msbuild.generation/2.2.1",
+      "hashPath": "reqnroll.tools.msbuild.generation.2.2.1.nupkg.sha512"
     },
     "Selenium.Support/4.33.0": {
       "type": "package",

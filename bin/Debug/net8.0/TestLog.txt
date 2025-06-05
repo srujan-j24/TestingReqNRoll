@@ -10,3 +10,15 @@
 12:44:48 - Selecting state
 12:44:48 - Selecting city
 12:44:49 - Clicking Submit
+16:05:09 - opeining browser
+16:05:16 - Entering name
+16:05:16 - Entering email
+16:05:16 - Selecting gender
+16:05:16 - Entering mobile number
+16:05:16 - Entering DOB
+16:05:17 - Entering subject
+16:05:17 - Selecting Hobby
+16:05:17 - Entering address
+16:05:17 - Selecting state
+16:05:17 - Selecting city
+16:05:17 - Clicking Submit

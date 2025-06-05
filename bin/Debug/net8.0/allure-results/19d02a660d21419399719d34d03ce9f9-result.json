@@ -1,0 +1,250 @@
+{
+  "uuid": "2f3861f3-4739-4efb-8359-b5bf686910a9",
+  "historyId": "52a8fd6cb59e9f4b0dd2d1a0a62d720c",
+  "testCaseId": "4fe860654ed9953691d5b7830c0cb830",
+  "fullName": "ReqnrollProject/Features/Feature1/Successfully fill and submit the practice form",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Feature1"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Successfully fill and submit the practice form",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element is not clickable at point (1121, 738)\n  (Session info: chrome=137.0.7151.56)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1121, 738)\n  (Session info: chrome=137.0.7151.56)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ReqnrollProject.Pages.PracticeFormPage.ClickSubmit() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\PracticeFormPage.cs:line 78\r\n   at ReqnrollProject.StepDefinitions.Feature1StepDefinitions.WhenIClickOnTheSubmitButton() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\Feature1StepDefinitions.cs:line 99\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at ReqnrollProject.Features.Feature1Feature.ScenarioCleanupAsync()\r\n   at ReqnrollProject.Features.Feature1Feature.SuccessfullyFillAndSubmitThePracticeForm() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Features\\TutorialForm.feature:line 19\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I navigate to the Selenium practice form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119709994,
+      "stop": 1749119716355
+    },
+    {
+      "name": "When I enter \"John Doe\" as Name",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119716355,
+      "stop": 1749119716524
+    },
+    {
+      "name": "When I enter \"john.doe@example.com\" as Email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119716524,
+      "stop": 1749119716691
+    },
+    {
+      "name": "When I select \"Male\" as Gender",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119716692,
+      "stop": 1749119716830
+    },
+    {
+      "name": "When I enter \"1234567890\" as Mobile Number",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119716831,
+      "stop": 1749119716912
+    },
+    {
+      "name": "When I enter \"01 Jan 1990\" as Date of Birth",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119716912,
+      "stop": 1749119717044
+    },
+    {
+      "name": "When I enter \"Computer Science\" as Subject",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717044,
+      "stop": 1749119717147
+    },
+    {
+      "name": "When I select \"Reading\" as Hobbies",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717147,
+      "stop": 1749119717223
+    },
+    {
+      "name": "When I enter \"123 Main Street, Anytown, USA\" as Current Address",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717223,
+      "stop": 1749119717284
+    },
+    {
+      "name": "When I select \"NCR\" as State",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717284,
+      "stop": 1749119717354
+    },
+    {
+      "name": "When I select \"Agra\" as City",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717355,
+      "stop": 1749119717406
+    },
+    {
+      "name": "When I click on the Submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element click intercepted: Element is not clickable at point (1121, 738)\n  (Session info: chrome=137.0.7151.56)",
+        "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1121, 738)\n  (Session info: chrome=137.0.7151.56)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ReqnrollProject.Pages.PracticeFormPage.ClickSubmit() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\PracticeFormPage.cs:line 78\r\n   at ReqnrollProject.StepDefinitions.Feature1StepDefinitions.WhenIClickOnTheSubmitButton() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\Feature1StepDefinitions.cs:line 99\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119717406,
+      "stop": 1749119718460
+    },
+    {
+      "name": "Then the form should be submitted successfully",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119718461,
+      "stop": 1749119718461
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749119709994,
+  "stop": 1749119718469
+}

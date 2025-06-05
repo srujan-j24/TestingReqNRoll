@@ -1,0 +1,114 @@
+{
+  "uuid": "86ce874d-6afa-46b1-86ee-406c90e50c33",
+  "historyId": "07e0da8ab76f32837fa0b6b117a09eb4",
+  "testCaseId": "d2c870be90c533a93fb9d05ad5c4c78a",
+  "fullName": "ReqnrollProject/Features/login/Verify login with valid credentials",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.login"
+    },
+    {
+      "name": "feature",
+      "value": "login"
+    },
+    {
+      "name": "tag",
+      "value": "regression,"
+    },
+    {
+      "name": "tag",
+      "value": "functional"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with valid credentials",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orange hrm login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119520076,
+      "stop": 1749119520078
+    },
+    {
+      "name": "When User enters the username \"Admin\" and password \"admin123\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119520078,
+      "stop": 1749119520079
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119520079,
+      "stop": 1749119520080
+    },
+    {
+      "name": "Then User is navigated to Home page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119520080,
+      "stop": 1749119520080
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749119520076,
+  "stop": 1749119520084
+}

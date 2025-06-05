@@ -10,16 +10,17 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-using Reqnroll;
 namespace ReqnrollProject.Features
 {
+    using Reqnroll;
+    using System;
+    using System.Linq;
     
     
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Reqnroll", "2.0.0.0")]
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Reqnroll", "2.0.0.0")]
+    [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("login")]
-    [NUnit.Framework.FixtureLifeCycleAttribute(NUnit.Framework.LifeCycle.InstancePerTestCase)]
     public partial class LoginFeature
     {
         
@@ -27,63 +28,41 @@ namespace ReqnrollProject.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "login", "login test ", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "login", "login test ", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
 #line 1 "login.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
-        public static async global::System.Threading.Tasks.Task FeatureSetupAsync()
+        public static async System.Threading.Tasks.Task FeatureSetupAsync()
         {
         }
         
         [NUnit.Framework.OneTimeTearDownAttribute()]
-        public static async global::System.Threading.Tasks.Task FeatureTearDownAsync()
+        public static async System.Threading.Tasks.Task FeatureTearDownAsync()
         {
         }
         
         [NUnit.Framework.SetUpAttribute()]
-        public async global::System.Threading.Tasks.Task TestInitializeAsync()
+        public async System.Threading.Tasks.Task TestInitializeAsync()
         {
             testRunner = global::Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(featureHint: featureInfo);
-            try
+            if (((testRunner.FeatureContext != null) 
+                        && (testRunner.FeatureContext.FeatureInfo.Equals(featureInfo) == false)))
             {
-                if (((testRunner.FeatureContext != null) 
-                            && (testRunner.FeatureContext.FeatureInfo.Equals(featureInfo) == false)))
-                {
-                    await testRunner.OnFeatureEndAsync();
-                }
+                await testRunner.OnFeatureEndAsync();
             }
-            finally
+            if ((testRunner.FeatureContext == null))
             {
-                if (((testRunner.FeatureContext != null) 
-                            && testRunner.FeatureContext.BeforeFeatureHookFailed))
-                {
-                    throw new global::Reqnroll.ReqnrollException("Scenario skipped because of previous before feature hook error");
-                }
-                if ((testRunner.FeatureContext == null))
-                {
-                    await testRunner.OnFeatureStartAsync(featureInfo);
-                }
+                await testRunner.OnFeatureStartAsync(featureInfo);
             }
         }
         
         [NUnit.Framework.TearDownAttribute()]
-        public async global::System.Threading.Tasks.Task TestTearDownAsync()
+        public async System.Threading.Tasks.Task TestTearDownAsync()
         {
-            if ((testRunner == null))
-            {
-                return;
-            }
-            try
-            {
-                await testRunner.OnScenarioEndAsync();
-            }
-            finally
-            {
-                global::Reqnroll.TestRunnerManager.ReleaseTestRunner(testRunner);
-                testRunner = null;
-            }
+            await testRunner.OnScenarioEndAsync();
+            global::Reqnroll.TestRunnerManager.ReleaseTestRunner(testRunner);
         }
         
         public void ScenarioInitialize(global::Reqnroll.ScenarioInfo scenarioInfo)
@@ -92,17 +71,17 @@ namespace ReqnrollProject.Features
             testRunner.ScenarioContext.ScenarioContainer.RegisterInstanceAs<NUnit.Framework.TestContext>(NUnit.Framework.TestContext.CurrentContext);
         }
         
-        public async global::System.Threading.Tasks.Task ScenarioStartAsync()
+        public async System.Threading.Tasks.Task ScenarioStartAsync()
         {
             await testRunner.OnScenarioStartAsync();
         }
         
-        public async global::System.Threading.Tasks.Task ScenarioCleanupAsync()
+        public async System.Threading.Tasks.Task ScenarioCleanupAsync()
         {
             await testRunner.CollectScenarioErrorsAsync();
         }
         
-        public virtual async global::System.Threading.Tasks.Task FeatureBackgroundAsync()
+        public virtual async System.Threading.Tasks.Task FeatureBackgroundAsync()
         {
 #line 5
 #line hidden
@@ -115,12 +94,12 @@ namespace ReqnrollProject.Features
         [NUnit.Framework.DescriptionAttribute("Verify login with valid credentials")]
         [NUnit.Framework.CategoryAttribute("regression,")]
         [NUnit.Framework.CategoryAttribute("functional")]
-        public async global::System.Threading.Tasks.Task VerifyLoginWithValidCredentials()
+        public async System.Threading.Tasks.Task VerifyLoginWithValidCredentials()
         {
             string[] tagsOfScenario = new string[] {
                     "regression,",
                     "functional"};
-            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Verify login with valid credentials", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 10
 this.ScenarioInitialize(scenarioInfo);
@@ -154,7 +133,7 @@ await this.FeatureBackgroundAsync();
         [NUnit.Framework.TestCaseAttribute("Admin", "admin123", null)]
         [NUnit.Framework.TestCaseAttribute("Ad", "min", null)]
         [NUnit.Framework.TestCaseAttribute("adm", "123a", null)]
-        public async global::System.Threading.Tasks.Task VerifyLoginWithTestParameters(string username, string password, string[] exampleTags)
+        public async System.Threading.Tasks.Task VerifyLoginWithTestParameters(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "sanity"};
@@ -163,7 +142,7 @@ await this.FeatureBackgroundAsync();
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             string[] tagsOfScenario = @__tags;
-            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("username", username);
             argumentsOfScenario.Add("password", password);
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Verify login with test parameters", null, tagsOfScenario, argumentsOfScenario, featureTags);

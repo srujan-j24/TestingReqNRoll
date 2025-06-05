@@ -116,3 +116,4 @@ C:\Users\srujx\source\repos\ReqnrollProject\ReqnrollProject\obj\Debug\net8.0\Req
 C:\Users\srujx\source\repos\ReqnrollProject\ReqnrollProject\obj\Debug\net8.0\ref\ReqnrollProject.dll
 C:\Users\srujx\source\repos\ReqnrollProject\ReqnrollProject\bin\Debug\net8.0\Allure.ReqnrollPlugin.dll
 C:\Users\srujx\source\repos\ReqnrollProject\ReqnrollProject\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\srujx\source\repos\ReqnrollProject\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.sourcelink.json

@@ -1,0 +1,113 @@
+{
+  "uuid": "34df8cf7-5397-45a2-8ade-5554d9227ff6",
+  "historyId": "e6e609362d7f3f52b6784c719bde6196",
+  "testCaseId": "0a629a95ad9a673dfc673af2a7816703",
+  "fullName": "ReqnrollProject/Features/Calculator/Add two numbers",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Calculator"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Add two numbers",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "One or more steps are not implemented."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the first number is 50",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The step is not implemented."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119707780,
+      "stop": 1749119707795
+    },
+    {
+      "name": "Given the second number is 70",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119707796,
+      "stop": 1749119707799
+    },
+    {
+      "name": "When the two numbers are added",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119707800,
+      "stop": 1749119707800
+    },
+    {
+      "name": "Then the result should be 120",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119707801,
+      "stop": 1749119707801
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749119707776,
+  "stop": 1749119707814
+}
