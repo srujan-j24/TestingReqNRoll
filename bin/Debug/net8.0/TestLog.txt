@@ -1,0 +1,12 @@
+12:44:42 - opeining browser
+12:44:48 - Entering name
+12:44:48 - Entering email
+12:44:48 - Selecting gender
+12:44:48 - Entering mobile number
+12:44:48 - Entering DOB
+12:44:48 - Entering subject
+12:44:48 - Selecting Hobby
+12:44:48 - Entering address
+12:44:48 - Selecting state
+12:44:48 - Selecting city
+12:44:49 - Clicking Submit

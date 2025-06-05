@@ -1,0 +1,43 @@
+{
+  "uuid": "311c1e3b-7d09-4455-b5c3-432cc5b86f32",
+  "children": [
+    "abceffc4-b54e-426a-989c-2927b6fab25d"
+  ],
+  "befores": [
+    {
+      "name": "Hooks.BeforeScenario()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104232825,
+      "stop": 1749104234586
+    }
+  ],
+  "afters": [
+    {
+      "name": "Hooks.AfterScenario()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104247477,
+      "stop": 1749104247832
+    }
+  ],
+  "links": [],
+  "start": 1749104232825,
+  "stop": 1749104247832
+}

@@ -1,0 +1,138 @@
+{
+  "uuid": "a292bfef-6bcb-45b9-8702-221c59c8a468",
+  "historyId": "c82c8bb34529e174c7133a80527f350b",
+  "testCaseId": "c30ba2c6d684e12bf7bc60ef5d4e0bab",
+  "fullName": "ReqnrollProject/Features/login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.login"
+    },
+    {
+      "name": "feature",
+      "value": "login"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orange hrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104203005,
+      "stop": 1749104212548
+    },
+    {
+      "name": "When User enters the username \"Admin\" and password \"admin123\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104212549,
+      "stop": 1749104212739
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104212739,
+      "stop": 1749104212829
+    },
+    {
+      "name": "Then User is navigated to Home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749104212829,
+      "stop": 1749104216876
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "b582ba3d-42d9-4c64-a1bd-e44a4fa8baed-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749104216919,
+      "stop": 1749104216929
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Admin\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"admin123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749104203004,
+  "stop": 1749104216930
+}

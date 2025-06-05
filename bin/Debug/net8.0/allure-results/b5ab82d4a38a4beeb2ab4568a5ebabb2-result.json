@@ -1,0 +1,147 @@
+{
+  "uuid": "1bce8b84-4518-4199-bd0b-7386a3cc1477",
+  "historyId": "97779552cd414899d6727ec30b08061e",
+  "testCaseId": "c30ba2c6d684e12bf7bc60ef5d4e0bab",
+  "fullName": "ReqnrollProject/Features/login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOTQYJKMAZXZR"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.login"
+    },
+    {
+      "name": "feature",
+      "value": "login"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@class='oxd-main-menu-item'])[1]\"}\n  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@class='oxd-main-menu-item'])[1]\"}\n  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at ReqnrollProject.Pages.LoginPage.homePageDispalyed() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\LoginPage.cs:line 59\r\n   at ReqnrollProject.StepDefinitions.LoginStepDefinitions.ThenUserIsNavigatedToHomePage() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\LoginStepDefinitions.cs:line 39\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at ReqnrollProject.Features.LoginFeature.ScenarioCleanupAsync()\r\n   at ReqnrollProject.Features.LoginFeature.VerifyLoginWithTestParameters(String username, String password, String[] exampleTags) in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Features\\login.feature:line 24\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orange hrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106236099,
+      "stop": 1749106245965
+    },
+    {
+      "name": "When User enters the username \"Ad\" and password \"min\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106245965,
+      "stop": 1749106246163
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106246163,
+      "stop": 1749106246255
+    },
+    {
+      "name": "Then User is navigated to Home page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@class='oxd-main-menu-item'])[1]\"}\n  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@class='oxd-main-menu-item'])[1]\"}\n  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at ReqnrollProject.Pages.LoginPage.homePageDispalyed() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\LoginPage.cs:line 59\r\n   at ReqnrollProject.StepDefinitions.LoginStepDefinitions.ThenUserIsNavigatedToHomePage() in C:\\Users\\srujx\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\LoginStepDefinitions.cs:line 39\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106246256,
+      "stop": 1749106250312
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "4ce0a817-eb72-461e-9205-40646de6d2a4-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749106250348,
+      "stop": 1749106250368
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Ad\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"min\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749106236098,
+  "stop": 1749106250379
+}
